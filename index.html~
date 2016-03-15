@@ -56,7 +56,6 @@ The basic idea with this design is to separate the construction of the metal pla
 <p>
 The solidworks file for the plastic frame can be downloaded <a href="files/WeirPlasticFrame.SLDPRT">here</a>, and STL file for the plastic frame (which is less easily modified, but can be used immediately with a 3D printer can be downloaded <a href="files/WeirPlasticFrame.STL">here</a>. Most 3D printers should be capable of printing this part. It is also possible to order them from <a href="http://www.3dsystems.com/quickparts" target="_blank">Quickparts</a> or other rapid prototyping services. We glue magnets into the slots in the top of the frame to hold it in place during an experiment.
 </p>
-This is a 3D rendering of the plastic frame:<br />
 <script src="https://embed.github.com/view/3d/ptweir/flyHolder/gh-pages/files/WeirPlasticFrame.STL"></script>
 View of the plastic frame from the top:<br />
 <img src="images/fromTopSchematic.png">
