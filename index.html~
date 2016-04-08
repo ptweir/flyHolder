@@ -7,8 +7,18 @@
     <meta name="description" content="flyHolder : Instructions and files for fabricating holders used to perform neural recordings on Drosophila during behavior">
 
     <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
-
     <title>Flyholder</title>
+    
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    
+      ga('create', 'UA-72213326-1', 'auto');
+      ga('send', 'pageview');
+    
+    </script>
   </head>
 
   <body>
@@ -54,14 +64,23 @@ The basic idea with this design is to separate the construction of the metal pla
 <h3>
 <a id="plastic-frame" class="anchor" href="#plastic-frame" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Making the plastic frame</h3>
 <p>
-The solidworks file for the plastic frame can be downloaded <a href="files/WeirPlasticFrame.SLDPRT">here</a>, and STL file for the plastic frame (which is less easily modified, but can be used immediately with a 3D printer can be downloaded <a href="files/WeirPlasticFrame.STL">here</a>. Most 3D printers should be capable of printing this part. It is also possible to order them from <a href="http://www.3dsystems.com/quickparts" target="_blank">Quickparts</a> or other rapid prototyping services. We glue magnets into the slots in the top of the frame to hold it in place during an experiment.
+The solidworks file for the plastic frame can be downloaded <a href="files/WeirPlasticFrame.SLDPRT" onclick="ga('send', 'event', 'download', 'click', 'files/WeirPlasticFrame.SLDPRT');">here</a>, and STL file for the plastic frame (which is less easily modified, but can be used immediately with a 3D printer can be downloaded <a href="files/WeirPlasticFrame.STL">here</a>. Most 3D printers should be capable of printing this part. Alternatively, we have uploaded the model to Shapeways, where you can order it in a variety of materials:<br />
+<iframe width="625" height="652" frameborder="0" allowfullscreen allowtransparency src="//www.shapeways.com/fragments/product?spin=WZHT39CHT"></iframe>
 </p>
+<p>
+It is also possible to order them from <a href="http://www.3dsystems.com/quickparts" target="_blank">Quickparts</a> or other rapid prototyping services.
+</p>
+This is a 3D rendering of the plastic frame:<br />
 <script src="https://embed.github.com/view/3d/ptweir/flyHolder/gh-pages/files/WeirPlasticFrame.STL"></script>
 View of the plastic frame from the top:<br />
 <img src="images/fromTopSchematic.png">
 View of the plastic frame from the bottom:<br />
 <img src="images/fromBottomSchematic.png">
-
+View of the plastic frame from the back:<br />
+<img src="images/fromBackSchematic.png">
+<p>
+We insert magnets into the holes in the back of the frame to hold it in place during an experiment. Magnets sized 1" X 1/8" X 1/8" and magnetized through the short axis work well, like part #<a href="https://www.kjmagnetics.com/proddetail.asp?prod=BX022" target="_blank">BX022</a> from K&J Magnetics. (<strong>Pro-tip:</strong> if you allow the magnets to rotate in place, multiple holders can be snapped together for easy transport.)
+</p>
 <h3>
 <a id="metal-plate" class="anchor" href="#metal-plate" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Making the metal plate</h3>
 <p>
@@ -90,7 +109,7 @@ and on the dorsal side.<br />
 <h3>
 <a id="referencing" class="anchor" href="#referencing" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Referencing this work</h3>
 
-<p>This method for constructing fly holders was first published as online supplemental information associated with <a href="" target="_blank">Weir et al. (2016) Anatomical reconstruction and functional imaging reveal an ordered array of skylight polarization detectors in <em>Drosophila</em></a>. Please cite that paper if you use this design.</p>
+<p>This method for constructing fly holders was first published as online supplemental information associated with <a href="" target="_blank">Weir et al. (2016) Anatomical reconstruction and functional imaging reveal an ordered array of skylight polarization detectors in <em>Drosophila</em></a>. Please cite that paper if you use this design. Steve Safarik and Bettina Schnell both contributed to the design.</p>
 
 
       </section>
@@ -99,22 +118,9 @@ and on the dorsal side.<br />
     <!-- FOOTER  -->
     <div id="footer_wrap" class="outer">
       <footer class="inner">
-        <p class="copyright">Flyholder maintained by <a href="https://github.com/ptweir">ptweir</a></p>
+        <p class="copyright">Flyholder maintained by <a href="https://github.com/ptweir">Peter Weir</a></p>
         <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
       </footer>
     </div>
-
-              <script type="text/javascript">
-            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-          </script>
-          <script type="text/javascript">
-            try {
-              var pageTracker = _gat._getTracker("UA-72213326-1");
-            pageTracker._trackPageview();
-            } catch(err) {}
-          </script>
-
-
   </body>
 </html>
