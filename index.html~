@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="description" content="flyHolder : Instructions and files for fabricating holders used to perform neural recordings on Drosophila during behavior">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+    <title>Flyholder</title>
+    
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    
+      ga('create', 'UA-72213326-1', 'auto');
+      ga('send', 'pageview');
+    
+    </script>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/ptweir/flyHolder">View on GitHub</a>
+
+          <h1 id="project_title">flyHolder</h1>
+          <h2 id="project_tagline">Instructions and files for fabricating holders used to perform neural recordings on <em>Drosophila</em> during behavior</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/ptweir/flyHolder/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/ptweir/flyHolder/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+          <h7>
+          <a href="#introduction" class="btn">Introduction</a><font color="white"> |</font>
+          <a href="#plastic-frame" class="btn">Plastic frame</a><font color="white"> |</font>
+          <a href="#metal-plate" class="btn">Metal plate</a><font color="white"> |</font>
+          <a href="#finished" class="btn">Finished product</a><font color="white"> |</font>
+          <a href="#trouble-shooting" class="btn">Trouble shooting</a><font color="white"> |</font>
+          <a href="#referencing" class="btn">Referencing</a>
+          </h7>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h3>
+<a id="introduction" class="anchor" href="#introduction" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Introduction</h3>
+
+<p>
+This website contains supplemental information to <a href="#referencing">Anatomical reconstruction and functional imaging reveal an ordered array of skylight polarization detectors in <em>Drosophila</em></a> that will appear in the <em>Journal of Neuroscience<em> in 2016. Below we describe a method for fabricating holders that can be used to hold a fly for electrophysiological or imaging experiments while permitting the fly to flap its wings or move its legs for behavioral tasks. The original holders for doing electrophysiology on tethered flying <em>Drosophila</em> were described in <a href="http://www.nature.com/neuro/journal/v13/n3/abs/nn.2492.html" target="_blank">Active flight increases the gain of visual motion processing in <em>Drosophila</em></a>. Our aim was to develop a fabrication method simpler than that initial approach that could be reproduced by a larger number of laboratories.</p>
+<p>
+The basic idea with this design is to separate the construction of the metal plate that holds the fly (which requires tight tolerances because it needs to be just the right size for the head but not so thick that you cannot dissect through it) from the construction of the larger plastic frame that is used to mount the fly under the microscope. This separation is accomplished by creating two separate parts that are later glued together:</p>
+<p>
+&bull; The <a href="#metal-plate">metal plate</a> is etched out of thin steel stock along with some guides that allow it to be folded precisely at the location of the hole.<br />
+&bull; The <a href="#plastic-frame">plastic frame</a> can be printed on a standard 3D printer.
+</p>
+
+<h3>
+<a id="plastic-frame" class="anchor" href="#plastic-frame" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Making the plastic frame</h3>
+<p>
+The solidworks file for the plastic frame can be downloaded <a href="files/WeirPlasticFrame.SLDPRT" onclick="ga('send', 'event', 'download', 'click', 'files/WeirPlasticFrame.SLDPRT');">here</a>, and STL file for the plastic frame (which is less easily modified, but can be used immediately with a 3D printer can be downloaded <a href="files/WeirPlasticFrame.STL">here</a>. Most 3D printers should be capable of printing this part. Alternatively, we have uploaded the model to Shapeways, where you can order it in a variety of materials:<br />
+<iframe width="625" height="652" frameborder="0" allowfullscreen allowtransparency src="//www.shapeways.com/fragments/product?spin=LU8XQHQYL"></iframe>
+
+</p>
+<p>
+It is also possible to order them from <a href="http://www.3dsystems.com/quickparts" target="_blank">Quickparts</a> or other rapid prototyping services.
+</p>
+This is a 3D rendering of the plastic frame:<br />
+<script src="https://embed.github.com/view/3d/ptweir/flyHolder/gh-pages/files/WeirPlasticFrame.STL"></script>
+View of the plastic frame from the top:<br />
+<img src="images/fromTopSchematic.png">
+View of the plastic frame from the bottom:<br />
+<img src="images/fromBottomSchematic.png">
+View of the plastic frame from the back:<br />
+<img src="images/fromBackSchematic.png">
+<p>
+We insert magnets into the holes in the back of the frame to hold it in place during an experiment. Magnets sized 1" X 1/8" X 1/8" and magnetized through the short axis work well, like part #<a href="https://www.kjmagnetics.com/proddetail.asp?prod=BX022" target="_blank">BX022</a> from K&J Magnetics. (<strong>Pro-tip:</strong> if you allow the magnets to rotate in place, multiple holders can be snapped together for easy transport.)
+</p>
+<h3>
+<a id="metal-plate" class="anchor" href="#metal-plate" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Making the metal plate</h3>
+<p>
+Order the etched metal from <a href="http://www.fotofab.com/" target="_blank">Fotofab</a> using these parts (either one should work): <a href="files/WeirPlateSteel.DXF">file1</a>, <a href="files/WeirPlateSteel2.dxf">file2</a>. These .dxf files contain the design for the etched metal. Note that in this design we actually had them print three holders in one "part". They can be cut apart with scissors. We tried three different sizes for the hole, and both the smallest and middle sizes worked. The larger hole is useful for mounting the thorax. The metal that we used was 0.001" Stainless Steel, type 316 soft annealed (<a href="http://www.mcmaster.com/#" target="_blank">McMaster-Carr</a> sells the material as shim stock, part #2317K11). The outer dimensions of the part are 3.07 x 1.07 inches.</p>
+Cut the individual pieces out from the sheet and apart from one another:<br />
+<img src="images/cutOut.jpg">
+Fold each (approximately square) plate using the slits as guides. Crease the folds, then partially unfold to match the contour of the plastic frame.<br />
+<img src="images/folded.jpg">
+<img src="images/folded2.jpg">
+<h3>
+<a id="finished" class="anchor" href="#finished" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Final product</h3>
+<p>Glue the folded metal plate to the bottom of the plastic frame. You can use epoxy or some other glue that adheres to metal and plastic. Make sure there is a good seal, or saline will leak out. If you intend to track wingstrokes, the metal needs to be painted to reduce reflections. Blackboard paint works well to reduce reflections, but it does not adhere very well to the metal, so it helps to prime the metal with model paint.
+</p>
+<img src="images/fromSideSchematicWithFly.svg">
+The final product should look something like this:<br />
+<img src="images/fromTop.jpg">
+<img src="images/finished1.jpg">
+Note that the fly has clearance to flap its wings both on the ventral side,<br />
+<img src="images/finished2.jpg">
+and on the dorsal side.<br />
+<img src="images/finished3.jpg">
+Below is a magnified image of a partially dissected fly (apologies for the blurry photograph and bubbles).<br />
+<img src="images/dissected.jpg">
+<h3>
+<a id="trouble-shooting" class="anchor" href="#trouble-shooting" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Troubleshooting</h3>
+<p>If you are having difficulting positioning the fly on the holder, you can mold the metal plate even after it is glued to the plastic frame by pushing it with an old set of forceps.</p>
+<p>If saline is leaking out of the holder, add glue to the metal-plastic seam. The slits are a common source of leaks.</p>
+<h3>
+<a id="referencing" class="anchor" href="#referencing" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Referencing this work</h3>
+
+<p>This method for constructing fly holders was first published as online supplemental information associated with <a href="" target="_blank">Weir et al. (2016) Anatomical reconstruction and functional imaging reveal an ordered array of skylight polarization detectors in <em>Drosophila</em></a>. Please cite that paper if you use this design. Steve Safarik and Bettina Schnell both contributed to the design.</p>
+
+
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Flyholder maintained by <a href="https://github.com/ptweir">Peter Weir</a></p>
+        <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+  </body>
+</html>
